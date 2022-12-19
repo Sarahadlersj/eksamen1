@@ -1,0 +1,713 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap');
+
+*{
+    margin: 0;
+    height: auto;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+/*Forside rektangler*/
+
+.forside-mobil {
+  display: none;
+}
+
+.forside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family:'poppins', sans-serif;
+  margin-left: 5rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.img-forside1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.image-alle {
+  width: 90%;
+}
+
+.forside-c {
+  display: flex;
+  flex-direction: row;
+}
+
+.landskab {
+  width: 90%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.forside a {
+  text-decoration: none;
+  color: #882216;
+}
+
+.forside a:hover {
+  color: black;
+}
+
+.p1 {
+    font-family: 'poppins', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    color: #882216;
+    margin-left: 4%;
+    margin-top: 2%;
+}
+
+.p2 {
+    font-family: 'poppins', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.h1 {
+    font-family: 'poppins', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.h2 {
+    font-family: 'poppins', sans-serif;
+    color: #882216;
+    font-size: 3rem;
+    text-align: center;
+}
+.pasta {
+  width: 70%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+/*Forside konkurrence*/
+
+.konkurrence {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.konkurrence h3 {
+  font-family: 'poppins', sans-serif;
+  color: #882216;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.konkurrence p {
+  font-family: 'poppins', sans-serif;
+  color: black;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+.e-mail1 {
+  font-family: 'poppins', sans-serif;
+  font-size: 3rem;
+}
+
+#e-mail {
+  width: 40rem;  
+  height: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.tilmeld {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  background-color: lightgray;
+  height: 5rem;
+  width: 10rem;
+  border-radius: 20px;
+  margin-left: 45%;
+  margin-right: 45%;
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+}
+
+.button a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'poppins', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.button a:hover {
+  color:#fdf8ec;
+}
+
+/*Om La Pasta*/
+.overskrift {
+  font-family: 'poppins', sans-serif;
+  font-size: 290%;
+  color: #882216;
+  margin-left: 2rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hr1 {
+  border: 2px solid black;
+  margin-bottom: 1%;
+}
+
+.hr2 {
+  border: 2px dashed black;
+}
+
+.section-1 p {
+  font-family: 'poppins', sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.section-2 {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.handmade-pasta {
+  width: 60%;
+  margin-left: 20%;
+}
+
+/*Opskrifter*/
+.section-opskrifter h1 {
+  font-family: 'poppins', sans-serif;
+  font-size: 5rem;
+}
+.section-opskrifter h2 {
+  font-family: 'poppins', sans-serif;
+  color: #882216;
+  font-size: 2.5rem;
+}
+
+.section-opskrifter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.section-opskrifter-p {
+  font-family: 'poppins', sans-serif;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
+  
+}
+
+.infographic-vandret {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.infographic-lodret {
+  display: none;
+}
+
+/* Opskrifter - se også */
+
+.section-opskrifter-h3 {
+  font-family: 'poppins', sans-serif;
+  margin-top: 5rem;
+  font-size: 2.9rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  margin-top: 4rem;
+  margin-left: 3%;
+}
+.column {
+  flex: 33.33%;
+  padding: 5px 33.33px;
+}
+.column:hover {
+  opacity: 0.8;
+}
+.text-row {
+  display: flex;
+  text-align: center;
+  font-family: 'poppins', sans-serif;
+}
+.column1 {
+  flex: 33.33%;
+  padding: 5px 33.33px;
+  margin-bottom: 4rem;
+}
+
+.text-row h4 {
+  font-size: 1.5rem;
+  color: #882216;
+}
+
+.billeder-pasta {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile {
+  display: none;
+}
+
+/*Vores produkter*/
+.produkter h1 {
+  font-family: 'poppins', sans-serif;
+  font-size: 3rem;
+  color: #882216;
+  display: flex;
+  text-align: center;  
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.fettuccine-alle {
+  width: 70%;
+  height: 70%;
+  display: flex;
+  margin-top: 6%;
+  margin-left: 15%;
+  margin-bottom: 6%;
+}
+
+.udforsk h2 {
+  font-family: 'poppins', sans-serif;
+  font-size: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.original {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family:'poppins', sans-serif;
+}
+
+.original h3 {
+  font-size: 2rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.original p {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: 1.4rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.image-original {
+  width: 45%; 
+}
+
+.img-original {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-produkter {
+  background-color: #fdf8ec;
+  border: #882216 solid;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-top: 5rem;
+}
+
+.container-produkter-gl {
+  margin-bottom: 5rem;
+}
+
+
+
+/*Header*/
+header { 
+    background-color: #fdf8ec;
+    height: 100px;
+    width: 100%;
+}
+.logo {
+    text-align: left;
+    margin-left: 20%;
+    margin-top: 8%;
+  }
+
+/*Navbar*/
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    height: auto;
+    position: relative;
+    
+  }
+
+  .menubar a {
+    color: black;
+    font-family: 'poppins', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    margin-block: auto;
+    font-size: 110%;
+    display: block;
+  }
+
+  .menubar li {
+    list-style: none;
+  }
+  .menubar {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+  
+  .menubar li a {
+    color: #882216;
+    font-size: 30px;
+  }
+  
+  .menubar li a:hover {
+    color: black;
+  }
+
+
+  /*footer*/
+  .footer {
+    background-color: #fdf8ec;
+    height: 250px;
+    width: 100%;
+    display: flex;
+  }
+
+  .kontakt {
+    font-family: 'poppins', sans-serif;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    justify-content: center;
+  }
+
+  .kontakt h3 {
+    color: #882216;
+    font-size: 2.5rem;
+  }
+
+  .kontakt h4 {
+    font-size: 2rem;
+  }
+
+  .kontakt a {
+    color: black;
+    text-decoration: none;
+  }
+
+  .kontakt a:hover {
+    color:#882216;
+  }
+
+  .sociale-medier h3 {
+    color: #882216;
+    font-family:'poppins', sans-serif;
+    font-size: 2.1rem;
+    margin-top: 16%;
+  }
+
+  .sociale-medier-ikoner {
+    width: 80%;
+  }
+
+  
+  
+@media screen and (max-width: 1170px) {
+  .menubar li a {
+    font-size: 20px;
+  }
+
+  h1.h1 {
+    font-size: 2.3rem;
+    text-align: center;
+  }
+
+  .handmade-pasta {
+    width: 50%;
+  }
+
+  .section-1 p {
+    font-size: 2rem;
+  }
+  .section-opskrifter-p {
+    font-size: 1.6rem;
+  }
+
+  .section-opskrifter-h3 {
+    font-size: 2.6rem;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+
+.forside-mobil {
+  display: block;
+}
+
+.forside-desktop {
+  display: none;
+}
+
+.forside h1 {
+  font-size: 4rem;
+}
+
+.forside h2 {
+  font-size: 4rem;
+}
+
+.forside p1 {
+  text-align: left;
+}
+
+}
+
+
+
+@media screen and (max-width: 936px) {
+  .section-opskrifter h1 {
+    font-size: 3rem;
+  }
+  .section-opskrifter h2 {
+    font-size: 2rem;
+  }
+  .menubar li a {
+    font-size: 16px;
+  }
+  
+  .section-opskrifter-h3 {
+    font-size: 2.2rem;
+  }
+
+  .row, .text-row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .row, .text-row img {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 26%;
+  }
+
+  .column {
+    margin-top: 3rem;
+  }
+  
+  .mobile {
+    display: flex;
+    text-align: center;
+  }
+
+  .desktop {
+    display: none;
+  }
+   
+  .mobile .column1 {
+    font-family: 'poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .column1 h4 {
+    font-size: 2rem;
+    color: #882216;
+  }
+
+  .column1 p {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 838px) {
+  .menubar li a {
+    font-size: 24px;
+  }
+
+  .topnav {
+    position: relative;
+  }
+  .menubar {
+    flex-direction: column;
+    color: #fdf8ec;
+  }
+
+  .menubar li {
+    color: #fdf8ec;
+  }
+
+  header {
+    height: 250px;
+  }
+  .section-opskrifter h1 {
+    font-size: 3rem;
+  }
+  .section-opskrifter h2 {
+    font-size: 2rem;
+  }
+
+  .infographic-vandret {
+    display: none;
+  }
+
+  .infographic-lodret {
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+  .section-1 p {
+    font-size: 1.5rem;
+  }
+
+  .section-opskrifter-p {
+    font-size: 1.2rem;
+  }
+
+  .column1 h4 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 730px) {
+.section-opskrifter-h3 {
+  font-size: 1.9rem;
+  margin-bottom: 0.8rem;
+}
+
+.forside h1 {
+  font-size: 2rem;
+}
+
+.forside h2 {
+  font-size: 2rem;
+}
+
+}
+
+@media screen and (max-width: 690px) {
+  .footer {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  section.sociale-medier {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  section.kontakt {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  img.sociale-medier-ikoner {
+    width: 40%; 
+}
+  #e-mail {
+    width: 30rem; 
+  }
+
+  .button {
+    margin-left: 40%;
+    margin-right: 60%;
+  }
+
+  .konkurrence h3 {
+    font-size: 2.8rem;
+  }
+  
+  .konkurrence p {
+    font-size: 2.2rem;
+  }
+
+
+}
+
+@media screen and (max-width: 641px) {
+  .section-opskrifter h2 {
+    font-size: 1.5rem;
+  }
+
+  .section-opskrifter-h3 {
+    font-size: 1.6rem;
+}
+
+  .section-opskrifter-p {
+    font-size: 1rem;
+  }
+}
